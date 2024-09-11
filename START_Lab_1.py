@@ -18,7 +18,7 @@ def lab1Question3(input_string, input_number):
     # Take in two inputs - a string and a number
     # Return the character of the string in the index given by number.  If this index does not exist, then return -1.
     character_at = -1
-
+    
     return character_at
 
 def lab1Question4(file_name):
@@ -40,10 +40,10 @@ def lab1Question6(quarters, dimes, nickels, pennies):
     # Return the total amount in dollars
     # For example, if the handful contains 4 quarters, 3 dimes, 2 nickels, and 1 penny, the function should return 1.41.
     total = None
-    quarters = int()
-    dimes = int()
-    nickels = int()
-    pennies = int()
+    quarters = input()
+    dimes = input()
+    nickels = input()
+    pennies = input()
     total = (quarters * 0.25)+(dimes * 0.10)+(nickels * 0.05)+(pennies * 0.01)
     return total
 
