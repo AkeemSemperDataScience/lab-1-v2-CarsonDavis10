@@ -4,7 +4,7 @@ def lab1Question1(input_gb):
     # Do the work here
     # The solution to this goes here (and in all of them below...)
     # Set the variable num_bytes to the answer and return it
-    num_bytes = input_gb * 1024 * 1024 * 10
+    num_bytes = input_gb * 1024 * 1024 * 1024
     return num_bytes
 
 def lab1Question2(name):
@@ -33,7 +33,8 @@ def lab1Question5(list_numbers):
     # Take an input of a list of numbers
     # Return the mode from that list. 
     mode_of_list = None
-    
+    import statistics
+    mode_of_list = statistics.mode(list_numbers)
     return mode_of_list
 
 def lab1Question6(quarters, dimes, nickels, pennies):
