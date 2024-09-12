@@ -18,9 +18,6 @@ def lab1Question2(name):
     else:
         return is_odd
         
-
-    return is_odd
-
 def lab1Question3(input_string, input_number):
     # Take in two inputs - a string and a number
     # Return the character of the string in the index given by number.  If this index does not exist, then return -1.
