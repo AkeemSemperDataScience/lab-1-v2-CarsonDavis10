@@ -10,7 +10,7 @@ def lab1Question1(input_gb):
 def lab1Question2(name):
     # Take an input of a name, return True if there is an odd number of characters in the name, False otherwise
     # Return None if the input is not a string
-    is_odd = None
+    is_odd = None 
     
     return is_odd
 
@@ -32,7 +32,7 @@ def lab1Question5(list_numbers):
     # Take an input of a list of numbers
     # Return the mode from that list. 
     mode_of_list = None
-
+    
     return mode_of_list
 
 def lab1Question6(quarters, dimes, nickels, pennies):
@@ -40,15 +40,10 @@ def lab1Question6(quarters, dimes, nickels, pennies):
     # Return the total amount in dollars
     # For example, if the handful contains 4 quarters, 3 dimes, 2 nickels, and 1 penny, the function should return 1.41.
     total = None
-    quarters = 4
-    dimes = 3
-    nickels = 2
-    pennies = 1
-    total = (quarters * 0.25)+(dimes * 0.10)+(nickels * 0.05)+(pennies * 0.01)
-    quarters = 0
-    dimes = 0
-    nickels = 0
-    pennies = 0
+    quarters = int(input)
+    dimes = int(input)
+    nickels = int (input)
+    pennies = int (input)
     total = (quarters * 0.25)+(dimes * 0.10)+(nickels * 0.05)+(pennies * 0.01)
     return total
        
