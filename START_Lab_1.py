@@ -15,7 +15,7 @@ def lab1Question2(name):
         return True
     if len(name) % 2 == 0:
         return False
-    if type(name) is not str:
+    else:
         return None
  
 def lab1Question3(input_string, input_number):
