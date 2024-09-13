@@ -15,7 +15,7 @@ def lab1Question2(name):
         return True
     if len(name) % 2 == 0:
         return False
-    if name == ():
+    if not isinstance(name,str):
         return None
 
         
