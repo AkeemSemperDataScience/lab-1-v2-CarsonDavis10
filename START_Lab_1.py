@@ -15,8 +15,9 @@ def lab1Question2(name):
         return True
     if len(name) % 2 == 0:
         return False
-    elif len(name) == 0:
-        return is_odd
+    if name == ():
+        return None
+
         
 def lab1Question3(input_string, input_number):
     # Take in two inputs - a string and a number
